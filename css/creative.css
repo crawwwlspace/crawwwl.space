@@ -233,7 +233,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: #6AB8DC;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -413,4 +413,17 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+/**
+* CUSTOM 
+**/
+
+.project-name {
+    font-size: 12px !important;
+}
+
+.bg-dark {
+    background-color: rgba(34, 34, 34, 0.85) !important;
+    color: white; 
 }
