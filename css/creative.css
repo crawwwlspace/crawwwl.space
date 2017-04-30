@@ -227,6 +227,7 @@ header .header-content .header-content-inner p {
   position: relative;
   display: block;
   max-width: 650px;
+  max-width: 650px;
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
@@ -426,4 +427,9 @@ body {
 .bg-dark {
     background-color: rgba(34, 34, 34, 0.85) !important;
     color: white; 
+}
+
+.portfolio-box{
+    height: 100px
+        width: 400px !important;
 }
